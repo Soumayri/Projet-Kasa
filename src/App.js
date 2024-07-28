@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './images/logo Kasa.png';
 import './App.css';
 
 function App() {
@@ -6,17 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Bienvenu au Projet Kasa</h1>
+        <p>Projet en cours de réalisation</p>
+        <p>par Soumayri EL Hachimi</p>
       </header>
     </div>
   );
