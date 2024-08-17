@@ -9,7 +9,7 @@
 	&_link-home,
 	&_link-about {
 		@include font-right(12px);
-		color: $primary-color;
+		color: black;
 		text-decoration: none;
 		padding-left: 0.8rem;
 
@@ -23,7 +23,5 @@
 			text-decoration-line: underline;
 		}
 	}
-	.nav-link-black {
-		color: black;
-	}
+	
 }
