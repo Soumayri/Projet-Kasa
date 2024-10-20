@@ -1,26 +1,18 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
+// App.jsx
 import Header from "./components/Header/Header";
-import FicheLogement from "./pages/FicheLogement/FicheLogement";
 import Footer from "./components/Footer/Footer";
-import Error from "./pages/Error/Error.jsx";
+import AppRoutes from "./appRoutes";
 
 function App() {
-	return (
-		<div className="App">
-			<Header />
-			<main>
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/logement/:id" element={<FicheLogement />} />
-					<Route path="*" element={<Error />} />
-				</Routes>
-			</main>
-			<Footer />
-		</div>
-	);
+  return (
+    <div className="App">
+      <Header />
+      <main>
+        <AppRoutes />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
